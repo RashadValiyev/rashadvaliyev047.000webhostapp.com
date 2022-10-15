@@ -1,0 +1,327 @@
+div.All_navbar{
+    height: 190px;
+    width: auto;
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+    padding-left: 80px;
+
+}
+div.Home{
+    margin-left: 8%;
+    font-size: 20px;
+    margin-top: -130px;
+    width: 70px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 31px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Home:hover{
+    margin-top: -130px;
+    margin-left: 8%;
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+    scale: 1.1;
+    will-change: color;
+    transition: color .25s ease-out;
+
+}
+div.Home::before,
+div.Home::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+
+    position: absolute;
+    bottom: 0;
+}
+div.Home::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.Home::after{
+    right: 50%;
+  transform: translateX(50%); 
+}
+div.Home:hover::before,
+div.Home:hover::after{
+    width: 100%;
+    transition-duration: .2s;
+}
+div.Skills{
+    margin-top:-42px;
+    width: 70px;
+    height:30px;
+    font-size: 20px;
+    margin-left:20%;
+    padding-top: 10px;
+    padding-left: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Skills:hover{
+    margin-top: -42px;
+    margin-left: 20%;
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+    scale: 1.1;
+    will-change: color;
+    transition: color .25s ease-out;
+
+}
+div.Skills::before,
+div.Skills::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+
+    position: absolute;
+    bottom: 0;
+}
+div.Skills::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.Skills::after{
+    right: 50%;
+  transform: translateX(50%); 
+}
+div.Skills:hover::before,
+div.Skills:hover::after{
+    width: 100%;
+    transition-duration: .2s;
+}
+div.Books{
+    margin-top:-42px;
+    width: 80px;
+    height:30px;
+    font-size: 20px;
+    margin-left:31%;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Books:hover{
+    margin-top: -42px;
+    margin-left: 31%;
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+    scale: 1.1;
+    will-change: color;
+    transition: color .25s ease-out;
+
+}
+div.Books::before,
+div.Books::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+
+    position: absolute;
+    bottom: 0;
+}
+div.Books::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.Books::after{
+    right: 50%;
+  transform: translateX(50%); 
+}
+div.Books:hover::before,
+div.Books:hover::after{
+    width: 100%;
+    transition-duration: .2s;
+}
+div.Social_Media{
+    margin-top:-42px;
+    width: 140px;
+    height:30px;
+    font-size: 20px;
+    margin-left:43%;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Social_Media:hover{
+    margin-top: -42px;
+    margin-left: 43%;
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+    scale: 1.1;
+    will-change: color;
+    transition: color .25s ease-out;
+
+}
+div.Social_Media::before,
+div.Social_Media::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+
+    position: absolute;
+    bottom: 0;
+}
+div.Social_Media::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.Social_Media::after{
+    right: 50%;
+  transform: translateX(50%); 
+}
+div.Social_Media:hover::before,
+div.Social_Media:hover::after{
+    width: 100%;
+    transition-duration: .2s;
+}
+div.Contact{
+    margin-top:-42px;
+    width: 90px;
+    height:30px;
+    font-size: 20px;
+    margin-left:90%;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Contact:hover{
+    margin-top: -42px;
+    margin-left: 90%;
+    transition-duration: 0.3s;
+    position: relative;
+    overflow: hidden;
+    scale: 1.1;
+    will-change: color;
+    transition: color .25s ease-out;
+
+}
+div.Contact::before,
+div.Contact::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--textUnderlinedLineColor, currentColor);
+    will-change: width;
+    transition: width .1s ease-out;
+
+    position: absolute;
+    bottom: 0;
+}
+div.Contact::before{
+    left: 50%;
+    transform: translateX(-50%);
+}
+div.Contact::after{
+    right: 50%;
+  transform: translateX(50%); 
+}
+div.Contact:hover::before,
+div.Contact:hover::after{
+    width: 100%;
+    transition-duration: .2s;
+}
+
+a.a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    height: 180px;
+    background-size: cover;
+    margin-top: 5px;
+    margin-left:-100px;
+    width: auto;
+}
+div.navbar-all{
+    margin-left: 50px;
+}
+img.Home-Page{
+    display: flexbox;
+    height: 1080px;
+    background-size: cover;
+    margin-top: -40px;
+}
+div.Foto-under{
+    position: absolute;
+    font-size: 60px;
+    margin-top: -640px;
+    color: white;
+    margin-left: 290px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+div.Learn_more{
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 610px;
+    width: 210px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    border-radius: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Learn_more:hover{
+    border: 4px solid rgb(34, 206, 85);
+    margin-left: 606px;
+    margin-top: -374px;
+    transition-duration:0.3s ;
+}
+div.Foto-under1{
+    position: absolute;
+    font-size: 60px;
+    margin-top: -500px;
+    color: white;
+    margin-left: 200px;
+}
+img.home-icon{
+    position: absolute;
+    height: 27px;
+    margin-top: -3px;
+    margin-left: -30px;
+}
+img.Skills-icon{
+    position: absolute;
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -43px;
+}
+img.Books-icon{
+    position: absolute;
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -43px;
+}
+img.Social_media-icons{
+    position: absolute;
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -43px;
+}
+img.contact-icons{
+    position: absolute;
+    height: 40px;
+    margin-top: -9px;
+    margin-left: -43px;
+}
