@@ -1,5 +1,5 @@
-# rashadvaliyev.rf.gd
-https://rashadvaliyev.rf.gd
+# https://rashadvaliyev047.000webhostapp.com/
+https://rashadvaliyev047.000webhostapp.com/d
 ![image](https://user-images.githubusercontent.com/101444690/195996242-c67afd35-b6cf-418d-9b5b-3275796d3f33.png)
 
 -->Site still under design<---
